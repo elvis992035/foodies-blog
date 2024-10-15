@@ -12,16 +12,6 @@ import schnitzelImg from '@/assets/schnitzel.jpg';
 import tomatoSaladImg from '@/assets/tomato-salad.jpg';
 import classes from './image-slideshow.module.css';
 
-// import burgerImg from '@/assets/bestbest/00003-1968474951.jpg';
-// import curryImg from '@/assets/bestbest/Nico Robin - Sex - One Piece_21.jpg';
-// import dumplingsImg from '@/assets/bestbest/00597-1893321548_结果.jpg';
-// import macncheeseImg from '@/assets/bestbest/nagatoro (106).jpg';
-// import pizzaImg from '@/assets/bestbest/00045-2835800316_结果.jpg';
-// import schnitzelImg from '@/assets/bestbest/aqua24.png';
-// import tomatoSaladImg from '@/assets/bestbest/00042-421101556.jpg';
-// import hina from '@/assets/bestbest/00069-2278256488_结果.jpg'
-// import classes from './image-slideshow.module.css';
-
 const images = [
   { image: burgerImg, alt: 'A delicious, juicy burger' },
   { image: curryImg, alt: 'A delicious, spicy curry' },
@@ -31,17 +21,6 @@ const images = [
   { image: schnitzelImg, alt: 'A delicious schnitzel' },
   { image: tomatoSaladImg, alt: 'A delicious tomato salad' },
 ];
-
-// const images = [
-//   { image: burgerImg, alt: 'A delicious, juicy burger' },
-//   { image: curryImg, alt: 'A delicious, spicy curry' },
-//   { image: dumplingsImg, alt: 'Steamed dumplings' },
-//   { image: macncheeseImg, alt: 'Mac and cheese' },
-//   { image: pizzaImg, alt: 'A delicious pizza' },
-//   { image: schnitzelImg, alt: 'A delicious schnitzel' },
-//   { image: tomatoSaladImg, alt: 'A delicious tomato salad' },
-//   { image: hina, alt: 'sexy'}
-// ];
 
 export default function ImageSlideshow() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
